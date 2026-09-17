@@ -1,0 +1,13 @@
+{
+  "name": "paystack-static-ip-proxy",
+  "version": "1.0.0",
+  "description": "Tiny forwarding proxy that gives Paystack API calls a static outbound IP via Fly.io",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
